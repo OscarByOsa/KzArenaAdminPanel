@@ -33,7 +33,7 @@
         "id": "bfa742db-67eb-4629-8bc0-7327edd46790",
         "name": "Toxell",
         "pc_name": "PC10",
-        "points": 150,
+        "points": 180,
         "missions": [
             {
                 "game": "DOTA 2",
@@ -96,7 +96,7 @@
                 "tier": 3,
                 "text": "Убийства + содействия ≥ 30",
                 "points": 30,
-                "completed": false
+                "completed": true
             }
         ],
         "last_submit": 1794039921.6900716
