@@ -1,0 +1,245 @@
+[
+    {
+        "id": "f4cb430c-e1ad-4f6c-a08c-edbda36c2722",
+        "name": "DMAERA",
+        "pc_name": "DESKTOP-R3EO1G2",
+        "points": 0,
+        "missions": [
+            {
+                "game": "DOTA 2",
+                "tier": 3,
+                "text": "Победа + 20 уб/сод",
+                "points": 30,
+                "completed": false
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 2,
+                "text": "15 содействий",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 1,
+                "text": "10 убийств + содействий",
+                "points": 10,
+                "completed": false
+            }
+        ],
+        "last_submit": 1793630772.640157
+    },
+    {
+        "id": "bfa742db-67eb-4629-8bc0-7327edd46790",
+        "name": "Toxell",
+        "pc_name": "PC09",
+        "points": 120,
+        "missions": [
+            {
+                "game": "DOTA 2",
+                "tier": 1,
+                "text": "10 убийств + содействий",
+                "points": 10,
+                "completed": true
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 2,
+                "text": "15 содействий",
+                "points": 20,
+                "completed": true
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 3,
+                "text": "Победа + 20 уб/сод",
+                "points": 30,
+                "completed": true
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 1,
+                "text": "10 убийств + содействий",
+                "points": 10,
+                "completed": true
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 2,
+                "text": "15 содействий",
+                "points": 20,
+                "completed": true
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 3,
+                "text": "Победа + 20 уб/сод",
+                "points": 30,
+                "completed": true
+            }
+        ],
+        "last_submit": 1793783459.9328225
+    },
+    {
+        "id": "f6ea7e9f-0d4d-466f-a9ad-9138d793f78c",
+        "name": "Анатолий Шварев",
+        "pc_name": "PC10",
+        "points": 0,
+        "missions": [
+            {
+                "game": "DOTA 2",
+                "tier": 1,
+                "text": "10 убийств + содействий",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 2,
+                "text": "15 содействий",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 3,
+                "text": "Победа + 20 уб/сод",
+                "points": 30,
+                "completed": false
+            }
+        ],
+        "last_submit": 1793686905.1578681
+    },
+    {
+        "id": "7fed066b-3abe-4e4c-bffb-aa43f91224ae",
+        "name": "донган",
+        "pc_name": "PC11",
+        "points": 60,
+        "missions": [
+            {
+                "game": "MINECRAFT",
+                "tier": 3,
+                "text": "Железная броня",
+                "points": 30,
+                "completed": true
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 2,
+                "text": "Железная кирка",
+                "points": 20,
+                "completed": true
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 1,
+                "text": "Каменная кирка",
+                "points": 10,
+                "completed": true
+            }
+        ],
+        "last_submit": 1793613995.8471882
+    },
+    {
+        "id": "d3885288-52bb-4639-969e-a64dd85a8e65",
+        "name": "Коля Губин",
+        "pc_name": "PC11",
+        "points": 120,
+        "missions": [
+            {
+                "game": "CS2",
+                "tier": 3,
+                "text": "Победа + 12 убийств",
+                "points": 30,
+                "completed": true
+            },
+            {
+                "game": "CS2",
+                "tier": 2,
+                "text": "5 содействий",
+                "points": 20,
+                "completed": true
+            },
+            {
+                "game": "CS2",
+                "tier": 1,
+                "text": "8 убийств",
+                "points": 10,
+                "completed": true
+            },
+            {
+                "game": "CS2",
+                "tier": 3,
+                "text": "Победа + 12 убийств",
+                "points": 30,
+                "completed": true
+            },
+            {
+                "game": "CS2",
+                "tier": 2,
+                "text": "5 содействий",
+                "points": 20,
+                "completed": true
+            },
+            {
+                "game": "CS2",
+                "tier": 1,
+                "text": "8 убийств",
+                "points": 10,
+                "completed": true
+            }
+        ],
+        "last_submit": 1793991601.1919181
+    },
+    {
+        "id": "173e2a3a-cf36-47c8-905d-9305665da901",
+        "name": "мактрахер",
+        "pc_name": "DESKTOP-R3EO1G2",
+        "points": 120,
+        "missions": [
+            {
+                "game": "MINECRAFT",
+                "tier": 1,
+                "text": "Каменная кирка",
+                "points": 10,
+                "completed": true
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 2,
+                "text": "Железная кирка",
+                "points": 20,
+                "completed": true
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 3,
+                "text": "Железная броня",
+                "points": 30,
+                "completed": true
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 1,
+                "text": "Каменная кирка",
+                "points": 10,
+                "completed": true
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 2,
+                "text": "Железная кирка",
+                "points": 20,
+                "completed": true
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 3,
+                "text": "Железная броня",
+                "points": 30,
+                "completed": true
+            }
+        ],
+        "last_submit": 1793792541.7982955
+    }
+]
