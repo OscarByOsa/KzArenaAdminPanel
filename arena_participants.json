@@ -215,7 +215,7 @@
     {
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
-        "pc_name": "DESKTOP-R3EO1G2",
+        "pc_name": "PC12",
         "points": 120,
         "missions": [
             {
@@ -259,8 +259,29 @@
                 "text": "Железная броня",
                 "points": 30,
                 "completed": true
+            },
+            {
+                "game": "CS2",
+                "tier": 1,
+                "text": "3 содействия за матч",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 2,
+                "text": "Выиграть матч",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 3,
+                "text": "15 убийств и 5 содействий",
+                "points": 30,
+                "completed": false
             }
         ],
-        "last_submit": 1793792541.7982955
+        "last_submit": 1794046665.1159096
     }
 ]
