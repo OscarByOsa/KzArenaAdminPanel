@@ -4,144 +4,348 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>КЗ Арена — Рейтинг</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #121212;
-            --panel: #1e1e1e;
-            --border: #333;
-            --text: #e0e0e0;
-            --muted: #888;
-            --accent: #ff6600;
-            --gold: #FFD700;
-            --silver: #C0C0C0;
-            --bronze: #CD7F32;
+            --bg-color: #000000;
+            --panel-bg: #121214;
+            --panel-border: rgba(255, 255, 255, 0.1);
+            --text-main: #ffffff;
+            --text-muted: #888888;
+            --accent-cyan: #00e5ff;
+            --accent-purple: #8a2be2;
+            --gold: #ffd700;
+            --silver: #c0c0c0;
+            --bronze: #cd7f32;
         }
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background-color: var(--bg);
-            color: var(--text);
+
+        * {
+            box-sizing: border-box;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            /* Сетка на фоне, как в редакторе */
+            background-image: 
+                radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+            background-position: center center;
+            overflow-x: hidden;
+        }
+
+        /* Верхняя панель */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: rgba(10, 10, 12, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--panel-border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .logo-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+            box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+        }
+
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            background: rgba(255, 255, 255, 0.05);
+            padding: 6px 12px;
+            border-radius: 20px;
+            border: 1px solid var(--panel-border);
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #00ff88;
+            box-shadow: 0 0 10px #00ff88;
+        }
+
+        /* Основной контент */
+        main {
+            flex: 1;
+            padding: 40px;
             display: flex;
             flex-direction: column;
             align-items: center;
-        }
-        h1 {
-            font-size: 2.5rem;
-            letter-spacing: 2px;
-            color: #fff;
-            margin-bottom: 30px;
-            text-transform: uppercase;
-        }
-        #rating-container {
+            max-width: 1400px;
+            margin: 0 auto;
             width: 100%;
-            max-width: 1000px;
         }
-        .player-row {
+
+        .page-title {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 40px;
+            text-align: center;
+            background: linear-gradient(to right, #fff, #888);
+            
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+        }
+
+        /* Сетка карточек */
+        #rating-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+            width: 100%;
+        }
+
+        /* Карточка игрока (стиль нода) */
+        .player-card {
+            background-color: var(--panel-bg);
+            border: 1px solid var(--panel-border);
+            border-radius: 16px;
+            padding: 20px;
             display: flex;
             align-items: center;
-            background-color: var(--panel);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 15px 20px;
-            margin-bottom: 10px;
-            transition: transform 0.1s ease;
+            gap: 20px;
+            position: relative;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
         }
-        .player-row:hover {
-            transform: translateX(5px);
-            border-color: var(--accent);
+
+        .player-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8), 0 0 20px rgba(138, 43, 226, 0.1);
         }
+
+        /* Декоративные точки по углам карточки */
+        .player-card::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .player-card.rank-1 { border-color: rgba(255, 215, 0, 0.4); box-shadow: 0 0 25px rgba(255, 215, 0, 0.15); }
+        .player-card.rank-2 { border-color: rgba(192, 192, 192, 0.4); }
+        .player-card.rank-3 { border-color: rgba(205, 127, 50, 0.4); }
+
+        /* Номер места */
         .rank {
-            font-size: 1.5rem;
-            font-weight: 900;
-            color: var(--muted);
+            font-size: 2rem;
+            font-weight: 800;
             width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            border: 1px solid var(--panel-border);
+            color: var(--text-muted);
             flex-shrink: 0;
         }
-        .rank.gold { color: var(--gold); }
-        .rank.silver { color: var(--silver); }
-        .rank.bronze { color: var(--bronze); }
-        .name {
+
+        .rank-1 .rank { color: var(--gold); text-shadow: 0 0 15px rgba(255, 215, 0, 0.5); border-color: rgba(255, 215, 0, 0.2); }
+        .rank-2 .rank { color: var(--silver); }
+        .rank-3 .rank { color: var(--bronze); }
+
+        /* Информация об игроке */
+        .player-info {
             flex-grow: 1;
-            font-size: 1.4rem;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            overflow: hidden;
+        }
+
+        .player-name {
+            font-size: 1.2rem;
             font-weight: 600;
-            color: #fff;
+            color: var(--text-main);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
-        .points {
-            font-size: 1.6rem;
-            font-weight: 900;
-            color: var(--accent);
-        }
+
         .pc-name {
             font-size: 0.8rem;
-            color: var(--muted);
-            margin-left: 15px;
+            color: var(--text-muted);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
+
+        /* Очки */
+        .points {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--accent-cyan);
+            text-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+            white-space: nowrap;
+        }
+
+        .points span {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            text-shadow: none;
+            margin-left: 4px;
+        }
+
         #status {
-            color: var(--muted);
-            margin-top: 20px;
-            font-style: italic;
+            margin-top: 40px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Скелетон загрузки */
+        .skeleton {
+            background: linear-gradient(90deg, #121214 25%, #1a1a1c 50%, #121214 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+        }
+
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        /* Подвал */
+        footer {
+            padding: 20px;
+            text-align: right;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--panel-border);
+            background: rgba(10, 10, 12, 0.8);
         }
     </style>
 </head>
 <body>
-    <h1>🏆 Рейтинг КЗ Арена</h1>
-    <div id="rating-container"></div>
-    <p id="status">Загрузка данных...</p>
+    <header>
+        <div class="logo-area">
+            <div class="logo-icon"></div>
+            КЗ АРЕНА / РЕЙТИНГ
+        </div>
+        <div class="status-badge">
+            <div class="status-dot"></div>
+            LIVE DATA
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">ТУРНИРНАЯ ТАБЛИЦА</h1>
+        <div id="rating-container">
+            <!-- Здесь будут появляться карточки -->
+        </div>
+        <p id="status">Инициализация соединения...</p>
+    </main>
+
+    <footer>
+        SYS.CONNECT // SECURE
+    </footer>
 
     <script>
         async function loadRating() {
             const statusEl = document.getElementById('status');
             const container = document.getElementById('rating-container');
             
-            // Путь к JSON-файлу в вашем репозитории GitHub Pages.
-            // Замените <owner> и <repo> на ваши значения.
-            const jsonUrl = 'arena_participants.json'; // Относительный путь работает, так как HTML и JSON в одном репозитории
+            const jsonUrl = 'arena_participants.json';
 
             try {
-                const response = await fetch(jsonUrl);
+                // Способ 2: Явный запрет на использование кеша
+                const response = await fetch(jsonUrl, { cache: 'no-store' });
+                
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
+                
                 let participants = await response.json();
 
                 if (!participants || participants.length === 0) {
-                    statusEl.textContent = 'Пока нет участников.';
+                    statusEl.textContent = 'Ожидание данных... Список участников пуст.';
+                    container.innerHTML = '';
                     return;
                 }
 
                 // Сортировка по очкам (по убыванию)
                 participants.sort((a, b) => b.points - a.points);
 
-                container.innerHTML = ''; // Очищаем контейнер
+                // Очищаем контейнер
+                container.innerHTML = '';
+                
                 participants.forEach((p, index) => {
                     const rank = index + 1;
                     let rankClass = '';
-                    if (rank === 1) rankClass = 'gold';
-                    else if (rank === 2) rankClass = 'silver';
-                    else if (rank === 3) rankClass = 'bronze';
+                    if (rank === 1) rankClass = 'rank-1';
+                    else if (rank === 2) rankClass = 'rank-2';
+                    else if (rank === 3) rankClass = 'rank-3';
 
-                    const row = document.createElement('div');
-                    row.className = 'player-row';
-                    row.innerHTML = `
-                        <div class="rank ${rankClass}">${rank}</div>
-                        <div class="name">${p.name}</div>
-                        ${p.pc_name ? `<div class="pc-name">(${p.pc_name})</div>` : ''}
-                        <div class="points">${p.points} PTS</div>
+                    const card = document.createElement('div');
+                    card.className = `player-card ${rankClass}`;
+                    
+                    // Очистка имени от возможных XSS
+                    const safeName = p.name.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+                    const safePcName = p.pc_name ? p.pc_name.replace(/</g, "&lt;").replace(/>/g, "&gt;") : '';
+
+                    card.innerHTML = `
+                        <div class="rank">${rank}</div>
+                        <div class="player-info">
+                            <div class="player-name">${safeName}</div>
+                            ${safePcName ? `<div class="pc-name">${safePcName}</div>` : ''}
+                        </div>
+                        <div class="points">${p.points}<span>PTS</span></div>
                     `;
-                    container.appendChild(row);
+                    container.appendChild(card);
                 });
-                statusEl.textContent = `Последнее обновление: ${new Date().toLocaleString()}`;
+
+                const now = new Date();
+                statusEl.textContent = `Последняя синхронизация: ${now.toLocaleTimeString()}`;
 
             } catch (error) {
                 console.error('Ошибка загрузки рейтинга:', error);
-                statusEl.textContent = 'Не удалось загрузить данные рейтинга.';
+                statusEl.textContent = `ОШИБКА СОЕДИНЕНИЯ. Попытка переподключения...`;
             }
         }
 
-        // Загружаем рейтинг при открытии страницы
+        // Загружаем при старте
         loadRating();
-        // И обновляем каждые 30 секунд (по желанию)
+        
+        // Обновляем каждые 30 секунд
         setInterval(loadRating, 30000);
     </script>
 </body>
