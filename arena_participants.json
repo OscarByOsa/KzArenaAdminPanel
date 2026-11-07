@@ -216,7 +216,7 @@
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
         "pc_name": "PC12",
-        "points": 120,
+        "points": 140,
         "missions": [
             {
                 "game": "MINECRAFT",
@@ -272,7 +272,7 @@
                 "tier": 2,
                 "text": "Выиграть матч",
                 "points": 20,
-                "completed": false
+                "completed": true
             },
             {
                 "game": "CS2",
