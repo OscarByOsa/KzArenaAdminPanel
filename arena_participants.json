@@ -283,5 +283,35 @@
             }
         ],
         "last_submit": 1794046665.1159096
+    },
+    {
+        "id": "1be7093a-d941-4ef7-ba1c-b2fd1cf15d6d",
+        "name": "максим",
+        "pc_name": "PC10",
+        "points": 0,
+        "missions": [
+            {
+                "game": "ТАНКИ",
+                "tier": 1,
+                "text": "Победа и ненулевой урон",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "ТАНКИ",
+                "tier": 2,
+                "text": "Топ-5 команды по опыту",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "ТАНКИ",
+                "tier": 3,
+                "text": "Уничтожить 3 танка",
+                "points": 30,
+                "completed": false
+            }
+        ],
+        "last_submit": 1794165639.8567913
     }
 ]
