@@ -213,6 +213,36 @@
         "last_submit": 1793991601.1919181
     },
     {
+        "id": "1be7093a-d941-4ef7-ba1c-b2fd1cf15d6d",
+        "name": "максим",
+        "pc_name": "PC10",
+        "points": 0,
+        "missions": [
+            {
+                "game": "ТАНКИ",
+                "tier": 1,
+                "text": "Победа и ненулевой урон",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "ТАНКИ",
+                "tier": 2,
+                "text": "Топ-5 команды по опыту",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "ТАНКИ",
+                "tier": 3,
+                "text": "Уничтожить 3 танка",
+                "points": 30,
+                "completed": false
+            }
+        ],
+        "last_submit": 1794165639.8567913
+    },
+    {
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
         "pc_name": "PC12",
@@ -285,33 +315,33 @@
         "last_submit": 1794046665.1159096
     },
     {
-        "id": "1be7093a-d941-4ef7-ba1c-b2fd1cf15d6d",
-        "name": "максим",
+        "id": "9c18bbfc-0f9c-4fab-ba77-fc5323dc3d05",
+        "name": "Толясик",
         "pc_name": "PC10",
         "points": 0,
         "missions": [
             {
-                "game": "ТАНКИ",
+                "game": "DOTA 2",
                 "tier": 1,
-                "text": "Победа и ненулевой урон",
+                "text": "Убийства + содействия ≥ 12",
                 "points": 10,
                 "completed": false
             },
             {
-                "game": "ТАНКИ",
+                "game": "DOTA 2",
                 "tier": 2,
-                "text": "Топ-5 команды по опыту",
+                "text": "Победить в матче",
                 "points": 20,
                 "completed": false
             },
             {
-                "game": "ТАНКИ",
+                "game": "DOTA 2",
                 "tier": 3,
-                "text": "Уничтожить 3 танка",
+                "text": "Убийства + содействия ≥ 30",
                 "points": 30,
                 "completed": false
             }
         ],
-        "last_submit": 1794165639.8567913
+        "last_submit": 1794205163.1710248
     }
 ]
