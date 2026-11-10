@@ -246,7 +246,7 @@
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
         "pc_name": "PC12",
-        "points": 180,
+        "points": 200,
         "missions": [
             {
                 "game": "MINECRAFT",
@@ -344,7 +344,7 @@
                 "tier": 2,
                 "text": "Победить в «Гонке вооружений»",
                 "points": 20,
-                "completed": false
+                "completed": true
             }
         ],
         "last_submit": 1794317519.8604546
