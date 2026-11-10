@@ -310,9 +310,30 @@
                 "text": "15 убийств и 5 содействий",
                 "points": 30,
                 "completed": true
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 2,
+                "text": "Огород с водой и 20 культурами",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 1,
+                "text": "Укрытие: стены, крыша, дверь, кровать, свет",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "PUBG",
+                "tier": 3,
+                "text": "4 личных убийства за матч",
+                "points": 30,
+                "completed": false
             }
         ],
-        "last_submit": 1794046665.1159096
+        "last_submit": 1794317376.678424
     },
     {
         "id": "9c18bbfc-0f9c-4fab-ba77-fc5323dc3d05",
