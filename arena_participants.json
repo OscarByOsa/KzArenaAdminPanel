@@ -246,7 +246,7 @@
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
         "pc_name": "PC12",
-        "points": 210,
+        "points": 240,
         "missions": [
             {
                 "game": "MINECRAFT",
@@ -337,7 +337,7 @@
                 "tier": 3,
                 "text": "Загон с 4 животными; детёныш при админе",
                 "points": 30,
-                "completed": false
+                "completed": true
             },
             {
                 "game": "CS2",
