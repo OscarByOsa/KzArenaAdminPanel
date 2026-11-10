@@ -331,9 +331,23 @@
                 "text": "4 личных убийства за матч",
                 "points": 30,
                 "completed": false
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 3,
+                "text": "Загон с 4 животными; детёныш при админе",
+                "points": 30,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 2,
+                "text": "Победить в «Гонке вооружений»",
+                "points": 20,
+                "completed": false
             }
         ],
-        "last_submit": 1794317376.678424
+        "last_submit": 1794317519.8604546
     },
     {
         "id": "9c18bbfc-0f9c-4fab-ba77-fc5323dc3d05",
