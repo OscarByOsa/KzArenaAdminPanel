@@ -373,7 +373,7 @@
     {
         "id": "9c18bbfc-0f9c-4fab-ba77-fc5323dc3d05",
         "name": "Толясик",
-        "pc_name": "PC2",
+        "pc_name": "PC10",
         "points": 120,
         "missions": [
             {
@@ -417,8 +417,29 @@
                 "text": "7 содействий за матч",
                 "points": 10,
                 "completed": true
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 1,
+                "text": "7 содействий за матч",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 2,
+                "text": "Убийства + содействия ≥ 20 за матч",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 3,
+                "text": "Победа и 15 содействий за матч",
+                "points": 30,
+                "completed": false
             }
         ],
-        "last_submit": 1794329222.268616
+        "last_submit": 1794365909.0021422
     }
 ]
