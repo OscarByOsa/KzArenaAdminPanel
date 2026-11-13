@@ -2,7 +2,7 @@
     {
         "id": "f4cb430c-e1ad-4f6c-a08c-edbda36c2722",
         "name": "DMAERA",
-        "pc_name": "DESKTOP-R3EO1G2",
+        "pc_name": "PC6",
         "points": 0,
         "missions": [
             {
@@ -25,9 +25,30 @@
                 "text": "10 убийств + содействий",
                 "points": 10,
                 "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 1,
+                "text": "8 убийств и 2 содействия за матч",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 2,
+                "text": "15 убийств за матч",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 3,
+                "text": "Победа и 7 содействий за матч",
+                "points": 30,
+                "completed": false
             }
         ],
-        "last_submit": 1793630772.640157
+        "last_submit": 1794587887.0871155
     },
     {
         "id": "bfa742db-67eb-4629-8bc0-7327edd46790",
