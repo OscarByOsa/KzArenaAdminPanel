@@ -329,7 +329,7 @@
     {
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
-        "pc_name": "PC12",
+        "pc_name": "PC09",
         "points": 240,
         "missions": [
             {
@@ -429,9 +429,30 @@
                 "text": "Победить в «Гонке вооружений»",
                 "points": 20,
                 "completed": true
+            },
+            {
+                "game": "ТАНКИ",
+                "tier": 2,
+                "text": "Топ-5 своей команды по личному урону",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 1,
+                "text": "Собрать 32 стеклянных блока",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "MINECRAFT",
+                "tier": 3,
+                "text": "Создать стол зачаровывания и зачаровать предмет",
+                "points": 30,
+                "completed": false
             }
         ],
-        "last_submit": 1794317519.8604546
+        "last_submit": 1794650315.8157928
     },
     {
         "id": "9c18bbfc-0f9c-4fab-ba77-fc5323dc3d05",
