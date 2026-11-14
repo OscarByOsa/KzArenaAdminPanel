@@ -330,7 +330,7 @@
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
         "pc_name": "PC09",
-        "points": 280,
+        "points": 300,
         "missions": [
             {
                 "game": "MINECRAFT",
@@ -435,7 +435,7 @@
                 "tier": 2,
                 "text": "Топ-5 своей команды по личному урону",
                 "points": 20,
-                "completed": false
+                "completed": true
             },
             {
                 "game": "MINECRAFT",
