@@ -330,7 +330,7 @@
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
         "pc_name": "PC09",
-        "points": 250,
+        "points": 280,
         "missions": [
             {
                 "game": "MINECRAFT",
@@ -449,7 +449,7 @@
                 "tier": 3,
                 "text": "Создать стол зачаровывания и зачаровать предмет",
                 "points": 30,
-                "completed": false
+                "completed": true
             }
         ],
         "last_submit": 1794650315.8157928
