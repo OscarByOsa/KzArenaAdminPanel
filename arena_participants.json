@@ -53,7 +53,7 @@
     {
         "id": "bfa742db-67eb-4629-8bc0-7327edd46790",
         "name": "Toxell",
-        "pc_name": "PC10",
+        "pc_name": "PC7",
         "points": 300,
         "missions": [
             {
@@ -160,9 +160,30 @@
                 "text": "Победа и 15 содействий за матч",
                 "points": 30,
                 "completed": true
+            },
+            {
+                "game": "CS2",
+                "tier": 1,
+                "text": "10 убийств и 2 содействия за матч",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 2,
+                "text": "Победить в «Гонке вооружений»",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 3,
+                "text": "Победа и 18 убийств за матч",
+                "points": 30,
+                "completed": false
             }
         ],
-        "last_submit": 1794642893.4713898
+        "last_submit": 1795000591.9125676
     },
     {
         "id": "f6ea7e9f-0d4d-466f-a9ad-9138d793f78c",
