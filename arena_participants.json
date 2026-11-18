@@ -371,7 +371,7 @@
     {
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
-        "pc_name": "PC09",
+        "pc_name": "PC12",
         "points": 300,
         "missions": [
             {
@@ -492,9 +492,30 @@
                 "text": "Создать стол зачаровывания и зачаровать предмет",
                 "points": 30,
                 "completed": true
+            },
+            {
+                "game": "CS2",
+                "tier": 2,
+                "text": "Победить в «Гонке вооружений»",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 1,
+                "text": "10 убийств и 2 содействия за матч",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 3,
+                "text": "Победа и 18 убийств за матч",
+                "points": 30,
+                "completed": false
             }
         ],
-        "last_submit": 1794650315.8157928
+        "last_submit": 1795026139.5520139
     },
     {
         "id": "9c18bbfc-0f9c-4fab-ba77-fc5323dc3d05",
