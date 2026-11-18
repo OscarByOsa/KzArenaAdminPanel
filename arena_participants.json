@@ -588,5 +588,35 @@
             }
         ],
         "last_submit": 1794365909.0021422
+    },
+    {
+        "id": "58235928-bdef-4e6e-8230-cfa48a9dd508",
+        "name": "Никита",
+        "pc_name": "PC13",
+        "points": 0,
+        "missions": [
+            {
+                "game": "CS2",
+                "tier": 1,
+                "text": "10 убийств и 2 содействия за матч",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 2,
+                "text": "Победить в «Гонке вооружений»",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 3,
+                "text": "Победа и 18 убийств за матч",
+                "points": 30,
+                "completed": false
+            }
+        ],
+        "last_submit": 1795027600.6788657
     }
 ]
