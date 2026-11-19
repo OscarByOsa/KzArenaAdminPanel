@@ -372,7 +372,7 @@
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
         "pc_name": "PC13",
-        "points": 330,
+        "points": 350,
         "missions": [
             {
                 "game": "MINECRAFT",
@@ -519,7 +519,7 @@
                 "tier": 2,
                 "text": "Победа и 12 убийств за матч",
                 "points": 20,
-                "completed": false
+                "completed": true
             },
             {
                 "game": "ТАНКИ",
