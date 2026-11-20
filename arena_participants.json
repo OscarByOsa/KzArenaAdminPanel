@@ -348,9 +348,30 @@
                 "text": "4 содействия за матч",
                 "points": 10,
                 "completed": true
+            },
+            {
+                "game": "CS2",
+                "tier": 1,
+                "text": "4 содействия за матч",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 2,
+                "text": "Победа и 12 убийств за матч",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "CS2",
+                "tier": 3,
+                "text": "20 убийств и 4 содействия за матч",
+                "points": 30,
+                "completed": false
             }
         ],
-        "last_submit": 1795114913.1141534
+        "last_submit": 1795186665.332333
     },
     {
         "id": "1be7093a-d941-4ef7-ba1c-b2fd1cf15d6d",
