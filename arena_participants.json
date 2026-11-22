@@ -590,9 +590,30 @@
                 "text": "Победа и топ-3 команды по базовому опыту",
                 "points": 30,
                 "completed": true
+            },
+            {
+                "game": "CS2",
+                "tier": 2,
+                "text": "Победа и 12 убийств за матч",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "ТАНКИ",
+                "tier": 1,
+                "text": "Нанести урон 3 разным противникам",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "ТАНКИ",
+                "tier": 3,
+                "text": "Победа и топ-3 команды по базовому опыту",
+                "points": 30,
+                "completed": false
             }
         ],
-        "last_submit": 1795111850.9401972
+        "last_submit": 1795348921.1491253
     },
     {
         "id": "58235928-bdef-4e6e-8230-cfa48a9dd508",
