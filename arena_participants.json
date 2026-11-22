@@ -449,7 +449,7 @@
         "id": "173e2a3a-cf36-47c8-905d-9305665da901",
         "name": "мактрахер",
         "pc_name": "PC13",
-        "points": 390,
+        "points": 400,
         "missions": [
             {
                 "game": "MINECRAFT",
@@ -624,7 +624,7 @@
                 "tier": 1,
                 "text": "Нанести урон 3 разным противникам",
                 "points": 10,
-                "completed": false
+                "completed": true
             },
             {
                 "game": "ТАНКИ",
