@@ -737,5 +737,35 @@
             }
         ],
         "last_submit": 1794365909.0021422
+    },
+    {
+        "id": "bada76d7-b2b5-45bb-80f1-3cc47a2e3a97",
+        "name": "волонтер",
+        "pc_name": "PC16",
+        "points": 0,
+        "missions": [
+            {
+                "game": "VALORANT",
+                "tier": 1,
+                "text": "8 убийств за матч",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "VALORANT",
+                "tier": 2,
+                "text": "15 убийств и 5 содействий",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "VALORANT",
+                "tier": 3,
+                "text": "Победа и 18 убийств",
+                "points": 30,
+                "completed": false
+            }
+        ],
+        "last_submit": 1795439044.6365325
     }
 ]
