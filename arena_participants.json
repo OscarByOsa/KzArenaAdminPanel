@@ -279,7 +279,7 @@
         "id": "d3885288-52bb-4639-969e-a64dd85a8e65",
         "name": "Коля Губин",
         "pc_name": "PC13",
-        "points": 490,
+        "points": 520,
         "missions": [
             {
                 "game": "CS2",
@@ -461,7 +461,7 @@
                 "tier": 3,
                 "text": "20 убийств и 4 содействия за матч",
                 "points": 30,
-                "completed": false
+                "completed": true
             },
             {
                 "game": "CS2",
