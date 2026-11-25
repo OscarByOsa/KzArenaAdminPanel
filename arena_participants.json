@@ -51,6 +51,36 @@
         "last_submit": 1794587887.0871155
     },
     {
+        "id": "ba9fe4f8-011b-4603-87fc-dec49a66aab7",
+        "name": "TOLJA",
+        "pc_name": "PC15",
+        "points": 0,
+        "missions": [
+            {
+                "game": "DOTA 2",
+                "tier": 1,
+                "text": "12 убийств + содействий суммарно",
+                "points": 10,
+                "completed": false
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 2,
+                "text": "Победа и 12 содействий",
+                "points": 20,
+                "completed": false
+            },
+            {
+                "game": "DOTA 2",
+                "tier": 3,
+                "text": "30 убийств + содействий суммарно",
+                "points": 30,
+                "completed": false
+            }
+        ],
+        "last_submit": 1795593354.682361
+    },
+    {
         "id": "bfa742db-67eb-4629-8bc0-7327edd46790",
         "name": "Toxell",
         "pc_name": "PC7",
@@ -802,13 +832,5 @@
             }
         ],
         "last_submit": 1794365909.0021422
-    },
-    {
-        "id": "ba9fe4f8-011b-4603-87fc-dec49a66aab7",
-        "name": "TOLJA",
-        "pc_name": "Вручную",
-        "points": 0,
-        "missions": [],
-        "last_submit": 1795593339.5652251
     }
 ]
