@@ -802,5 +802,13 @@
             }
         ],
         "last_submit": 1794365909.0021422
+    },
+    {
+        "id": "ba9fe4f8-011b-4603-87fc-dec49a66aab7",
+        "name": "TOLJA",
+        "pc_name": "Вручную",
+        "points": 0,
+        "missions": [],
+        "last_submit": 1795593339.5652251
     }
 ]
