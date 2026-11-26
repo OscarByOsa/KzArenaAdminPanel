@@ -54,7 +54,7 @@
         "id": "ba9fe4f8-011b-4603-87fc-dec49a66aab7",
         "name": "TOLJA",
         "pc_name": "PC11",
-        "points": 10,
+        "points": 60,
         "missions": [
             {
                 "game": "DOTA 2",
@@ -68,14 +68,14 @@
                 "tier": 2,
                 "text": "Победа и 12 содействий",
                 "points": 20,
-                "completed": false
+                "completed": true
             },
             {
                 "game": "DOTA 2",
                 "tier": 3,
                 "text": "30 убийств + содействий суммарно",
                 "points": 30,
-                "completed": false
+                "completed": true
             }
         ],
         "last_submit": 1795704182.287315
